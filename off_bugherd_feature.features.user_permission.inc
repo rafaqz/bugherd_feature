@@ -15,6 +15,8 @@ function off_bugherd_feature_user_default_permissions() {
     'name' => 'access bugherd',
     'roles' => array(
       'Admin' => 'Admin',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'bugherd',
   );
