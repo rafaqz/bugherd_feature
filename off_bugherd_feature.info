@@ -1,6 +1,6 @@
 name = OFF Bugherd Feature
 core = 7.x
-package = Features
+package = Collabco
 dependencies[] = bugherd
 dependencies[] = ctools
 dependencies[] = features
