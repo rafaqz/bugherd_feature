@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_bugherd_feature.features.inc
+ * bugherd_feature.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function off_bugherd_feature_ctools_plugin_api($module = NULL, $api = NULL) {
+function bugherd_feature_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }

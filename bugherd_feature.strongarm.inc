@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_bugherd_feature.strongarm.inc
+ * bugherd_feature.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function off_bugherd_feature_strongarm() {
+function bugherd_feature_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

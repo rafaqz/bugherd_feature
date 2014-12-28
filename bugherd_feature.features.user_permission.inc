@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_bugherd_feature.features.user_permission.inc
+ * bugherd_feature.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function off_bugherd_feature_user_default_permissions() {
+function bugherd_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'access bugherd'.

@@ -4,4 +4,4 @@
  * Code for the OFF Bugherd Feature feature.
  */
 
-include_once 'off_bugherd_feature.features.inc';
+include_once 'bugherd_feature.features.inc';
