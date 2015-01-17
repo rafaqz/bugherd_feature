@@ -10,4 +10,3 @@ features[features_api][] = api:2
 features[user_permission][] = access bugherd
 features[user_permission][] = administer bugherd
 features[variable][] = bugherd_disable_on_admin
-project path = profiles/collabco/modules/features
